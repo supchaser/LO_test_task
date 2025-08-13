@@ -84,8 +84,3 @@ func LoadConfig(envFile string) (*Config, error) {
 		ServerPort: os.Getenv("SERVER_PORT"),
 	}, nil
 }
-
-// func stringToInt(s string) int {
-// 	i, _ := strconv.ParseInt(s, 10, 32)
-// 	return int(i)
-// }
